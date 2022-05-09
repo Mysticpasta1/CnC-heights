@@ -23,7 +23,7 @@ public class Main
 {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public ExampleMod() {
+    public Main() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
